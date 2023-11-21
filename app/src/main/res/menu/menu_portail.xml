@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="menu_portail">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeInMenuPortail"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/loginInMenuPortail"
+            android:icon="@drawable/baseline_login_24"
+            android:title="Login" />
+        <item
+            android:id="@+id/registerInMenuPortail"
+            android:icon="@drawable/baseline_app_registration_24"
+            android:title="Sign up" />
+    </group>
+
+</menu>

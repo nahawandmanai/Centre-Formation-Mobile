@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pp"
+    tools:context=".fragment.UpdateEvent"
+
+    >
+
+    <EditText
+        android:id="@+id/editTexteventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom evenement"
+        android:inputType="text"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editTextdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTexteventName"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/editTextnumberOfPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextdescription"
+        android:hint="Nombre de personnes"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/editTextaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextnumberOfPeople"
+        android:hint="Adresse"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextaddress"
+        android:text="Sauvegarder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        android:layout_margin="250dp"
+
+        />
+
+</RelativeLayout>

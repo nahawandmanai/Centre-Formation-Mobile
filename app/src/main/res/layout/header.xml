@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/education"
+    android:foregroundGravity="bottom"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Name"
+        android:textColor="#044004"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/userNameInHeader"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="mail@mail.com"
+        android:textColor="#044004"
+        android:textSize="18dp"
+        android:id="@+id/userEmailInHeader"/>
+
+
+</LinearLayout>

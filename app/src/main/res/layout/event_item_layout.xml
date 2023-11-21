@@ -1,0 +1,30 @@
+<!-- res/layout/event_item_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/pp"
+    >
+
+    <TextView
+        android:id="@+id/nomEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/buttonDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Détails"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>

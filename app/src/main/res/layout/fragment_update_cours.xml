@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pp"
+    tools:context=".fragment.UpdateCours">
+
+
+
+    <EditText
+        android:id="@+id/editTextTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titre"
+        android:inputType="text"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editTextContenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTitre"
+        android:hint="Contenu"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <Spinner
+        android:id="@+id/editTextMatiere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextContenu"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextContenu"
+        android:text="Sauvegarder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="250dp"
+        />
+
+</RelativeLayout>

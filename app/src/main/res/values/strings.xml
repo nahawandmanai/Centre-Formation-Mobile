@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Centre-Formation</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_empty_field">This field is required</string>
+    <string name="error_invalid_email">Enter a valid email address</string>
+    <string name="error_invalid_phone">Enter a valid phone number</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="errorInvalidFirstName">First Name has to have min 3 caracter</string>
+    <string name="errorInvalidLastName">Last Name has to have min 3 caracter</string>
+    <string name="errorInvalidPhoneNumber">Invalid Phone Number</string>
+    <string name="errorInvalidPassword">Enter a valid password (Upper,lower case and number,length min 4)</string>
+    <string name="passwordEmpty">Passwords can\'t be empty</string>
+    <string name="wrongpassword">Wrong Password</string>
+
+</resources>
